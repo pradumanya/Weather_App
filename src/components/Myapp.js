@@ -51,7 +51,7 @@ const Myapp = () => {
         <div className='container'>
             <div className='inputs'>
                 <input placeholder='Enter city,Country' value={search} onChange={handleInput} />
-                <button onClick={myFun}><i className="fa-solid fa-magnifying-glass"></i></button>
+                <button onClick={myFun}><i class="bi bi-search"></i></button>
             </div>
         
         <div>

@@ -5,6 +5,7 @@ import clear from "../images/Clear.png"
 import rain from "../images/Rain.png"
  import err from "../images/error.png"
  import mist from "../images/mist.png"
+ import { Search } from 'react-bootstrap-icons';
 
 
 
@@ -57,7 +58,7 @@ const Weather = (city) => {
       <div className="container">
         <div className="inputs">
           <input placeholder="Search Citys" value={search} onChange={handleInput}/>
-          <button onClick={myFun}><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button onClick={myFun}><i className="bi bi-search"></i></button>
         </div>
         <div className="data">
  
